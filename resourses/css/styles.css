@@ -73,9 +73,8 @@ body {
     top:-500px;
 }
 
-.panel.open p:nth-child(1) {
-    animation-duration: 1s;
-    animation:slideTop 0.8s forwards 0.5s;
+.panel.textAnimate p:nth-child(1) {
+    animation:slideTop 0.8s forwards;
 }
 
 @keyframes slideTop{
@@ -88,9 +87,8 @@ body {
     bottom:-500px;
 }
 
-.panel.open p:nth-child(3) {
-    animation-duration: 1s;
-    animation:slideBottom 0.8s forwards 0.5s;
+.panel.textAnimate p:nth-child(3) {
+    animation:slideBottom 0.8s forwards;
 }
 
 @keyframes slideBottom{
